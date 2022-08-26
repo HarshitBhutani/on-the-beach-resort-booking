@@ -1,0 +1,1109 @@
+.head1 {
+    font: 24px Pebble Nanum_Myeongjo, serif;
+    margin: 10px 0px 13px;
+    letter-spacing: .1em;
+    font-weight: thin;
+}
+
+.body {
+    padding-left: 110px;
+    padding-top: 100px;
+    font-style: Pebble Nanum_Myeongjo, serif;
+    overflow: hidden;
+}
+
+.head2 {
+    font: 41px Pebble Nanum_Myeongjo, serif;
+    letter-spacing: .2em;
+    margin: 0px 0px 30px;
+}
+
+.head2:hover {
+    transition: linear;
+}
+
+.head3 {
+    color: #28b8c5;
+    font: 20px Pebble Nanum_Myeongjo, serif;
+    margin: 0px 0px 34px;
+}
+
+#para1 {
+    font-size: 19px;
+    padding-right: 330px;
+    color: #696868;
+    letter-spacing: .1em;
+    padding-bottom: 40px;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #28b8c5;
+}
+
+.checkin {
+    margin: 30px 0px 60px;
+    background-color: whitesmoke;
+    height: 150px;
+    display: block;
+    border-right: 3px solid #28b8c5;
+    border-bottom: 3px solid #28b8c5;
+}
+
+#book {
+    writing-mode: vertical-lr;
+    background-color: #28b8c5;
+    padding: 24px;
+    color: white;
+    left: 1565px;
+    position: absolute;
+    top: 300px;
+    padding-top: 45px;
+    padding-bottom: 33px;
+    letter-spacing: .26em;
+    padding-right: 34px;
+    font-size: 19px;
+    position: fixed;
+    overflow: hidden;
+}
+
+#suitcase {
+    font-size: 30px;
+    color: white;
+}
+
+#book:hover {
+    background-color: rgb(197, 147, 155);
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec1.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec2.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec3.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec4.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec5.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec6.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec7.jpg");
+}
+
+@keyframes slide {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slideshow {
+    overflow: hidden;
+    width: 1650px;
+    height: 750px;
+    display: flex;
+}
+
+.slides {
+    animation: slide 15s infinite;
+    display: flex;
+}
+
+.container {
+    float: left;
+    height: 800px;
+    width: 1000px;
+    margin-top: 0px auto;
+    margin-left: 10px;
+}
+
+#check {
+    position: relative;
+    font-size: 28px;
+    left: 39px;
+    color: rgb(90, 82, 82);
+}
+
+.checkout {
+    border: none;
+    font-size: 28px;
+    position: relative;
+    left: 250px;
+    top: -160px;
+    color: rgb(90, 82, 82);
+}
+
+.dropbtn {
+    background-color: #28b8c5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: rgb(197, 147, 155);
+    ;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(197, 147, 155);
+}
+
+.adults {
+    font-size: 28px;
+    color: rgb(90, 82, 82);
+}
+
+.adults1 {
+    position: relative;
+    top: -259px;
+    left: 480px;
+}
+
+.dropbtn2 {
+    background-color: #28b8c5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn2 {
+    background-color: #28b8c5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content2 a:hover {
+    background-color: rgb(197, 147, 155);
+    ;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown2:hover .dropbtn2 {
+    background-color: rgb(197, 147, 155);
+}
+
+.children {
+    font-size: 28px;
+    color: rgb(90, 82, 82);
+}
+
+.children1 {
+    position: relative;
+    top: -362px;
+    left: 630px;
+}
+
+.discount>input {
+    border: none;
+    color: rgb(197, 147, 155);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.discount {
+    font-size: 28px;
+    color: rgb(90, 82, 82);
+    position: relative;
+    top: -465px;
+    left: 800px;
+}
+
+ ::placeholder {
+    color: violet;
+}
+
+.checkavalibility {
+    position: relative;
+    top: -160px;
+    left: 1000px;
+    width: fit-content;
+    display: inline;
+    font-size: 28px;
+    color: rgb(90, 82, 82);
+}
+
+.box1 {
+    position: relative;
+    left: 220px;
+    top: -140px;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.info1 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info1:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox1 {
+    padding: 50px;
+    color: rgb(129, 124, 124);
+    position: relative;
+    top: -319px;
+    left: 500px;
+    width: 400px;
+    letter-spacing: .3em;
+    text-align: center;
+    height: 320px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.info2 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info2:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox2 {
+    padding: 50px;
+    color: rgb(129, 124, 124);
+    position: relative;
+    top: 660px;
+    left: 300px;
+    letter-spacing: .3em;
+    text-align: center;
+    height: 300px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec8.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec9.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec10.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec11.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec12.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec13.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec14.jpg");
+}
+
+@keyframes slider {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slides2 {
+    width: max-content;
+    animation: slider 15s infinite;
+    display: flex;
+}
+
+.slideshow2 {
+    overflow: hidden;
+    width: 1650px;
+    height: 1000px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: -30px;
+}
+
+.box2 {
+    position: relative;
+    left: 220px;
+    top: -430px;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.heading1 {
+    font: 27px Pebble Nanum_Myeongjo, serif;
+    color: rgb(197, 147, 155);
+    letter-spacing: .2em;
+}
+
+.heading1:hover {
+    transition: transform
+}
+
+.para1 {
+    font-size: 20px;
+    color: rgb(26, 24, 24);
+    font-family: 'Josefin Slab', serif;
+}
+
+.info1 {
+    font-weight: 600;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info1:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox2 {
+    padding: 50px;
+    color: rgb(129, 124, 124);
+    position: absolute;
+    top: 0px;
+    left: 650px;
+    width: 400px;
+    letter-spacing: .3em;
+    text-align: center;
+    height: 320px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+a {
+    text-decoration: none;
+    color: #28b8c5;
+}
+
+a:hover {
+    color: rgb(197, 147, 155)
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec15.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec16.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec17.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec18.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec19.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec20.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec21.jpg");
+}
+
+@keyframes sliders {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slides3 {
+    animation: sliders 15s infinite;
+    display: flex;
+}
+
+.slideshow3 {
+    overflow: hidden;
+    width: 1650px;
+    height: 750px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: -150px;
+}
+
+.box3 {
+    position: relative;
+    left: 220px;
+    top: -300px;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.info3 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info3:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox3 {
+    padding: 0px;
+    color: rgb(129, 124, 124);
+    position: relative;
+    top: -740px;
+    left: 850px;
+    letter-spacing: .3em;
+    text-align: center;
+    width: 450px;
+    height: 369px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec22.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec23.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec24.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec25.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec26.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec27.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec28.jpg");
+}
+
+@keyframes slid {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slides4 {
+    animation: slid 15s infinite;
+    display: flex;
+}
+
+.slideshow4 {
+    overflow: hidden;
+    width: 1650px;
+    height: 750px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: -600px;
+}
+
+.box4 {
+    position: relative;
+    left: 220px;
+    top: -800px;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.info4 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info4:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox4 {
+    padding: 0px;
+    color: rgb(129, 124, 124);
+    position: relative;
+    top: -350px;
+    left: 500px;
+    letter-spacing: .3em;
+    text-align: center;
+    width: 450px;
+    height: 369px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec29.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec30.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec31.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec32.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec33.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec34.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec35.jpg");
+}
+
+@keyframes sli {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slides5 {
+    animation: sli 15s infinite;
+    display: flex;
+}
+
+.slideshow5 {
+    overflow: hidden;
+    width: 1650px;
+    height: 750px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: -630px;
+}
+
+.box5 {
+    left: 220px;
+    top: 6530px;
+    position: absolute;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.info5 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info5:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox5 {
+    padding: 0px;
+    color: rgb(129, 124, 124);
+    position: absolute;
+    top: 0px;
+    left: 640px;
+    letter-spacing: .3em;
+    text-align: center;
+    width: 450px;
+    height: 369px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.container:nth-child(1) {
+    background-image: url("../image/beachsec36.jpg");
+}
+
+.container:nth-child(2) {
+    background-image: url("../image/beachsec37.jpg");
+}
+
+.container:nth-child(3) {
+    background-image: url("../image/beachsec38.jpg");
+}
+
+.container:nth-child(4) {
+    background-image: url("../image/beachsec39.jpg");
+}
+
+.container:nth-child(5) {
+    background-image: url("../image/beachsec40.jpg");
+}
+
+.container:nth-child(6) {
+    background-image: url("../image/beachsec41.jpg");
+}
+
+.container:nth-child(7) {
+    background-image: url("../image/beachsec42.jpg");
+}
+
+@keyframes sl {
+    0% {
+        margin-left: -100px;
+    }
+    20% {
+        margin-left: -1074px;
+    }
+    35% {
+        margin-left: -1587px;
+    }
+    50% {
+        margin-left: -2748px;
+    }
+    65% {
+        margin-left: -3958px;
+    }
+    80% {
+        margin-left: -4134px;
+    }
+    95% {
+        margin-left: -5346px;
+    }
+    100% {
+        margin-left: -5479px;
+    }
+    0% {
+        margin-left: -10px;
+    }
+}
+
+.slides6 {
+    animation: sl 15s infinite;
+    display: flex;
+}
+
+.slideshow6 {
+    overflow: hidden;
+    width: 1650px;
+    height: 750px;
+    display: flex;
+    position: relative;
+    right: 0px;
+    top: -180px;
+}
+
+.box6 {
+    position: relative;
+    left: -120px;
+    top: -330px;
+    padding: 70px;
+    padding-left: 140px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 5px 10px 7px rgb(90, 82, 82);
+    background-color: whitesmoke;
+}
+
+.info6 {
+    font-weight: 900;
+    color: #28b8c5;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+.info6:hover {
+    color: rgb(197, 147, 155);
+}
+
+.iconbox6 {
+    padding: 0px;
+    color: rgb(129, 124, 124);
+    position: relative;
+    top: 18px;
+    left: 500px;
+    letter-spacing: .3em;
+    text-align: center;
+    width: 450px;
+    height: 369px;
+    font-size: 30px;
+    padding-top: 70px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 7px rgb(90, 82, 82);
+}
+
+.facilities {
+    position: absolute;
+    left: 170px;
+    /* top: 10px; */
+    font: 45px Pebble Nanum_Myeongjo, serif;
+    color: rgb(197, 147, 155);
+    letter-spacing: .2em;
+}
+
+.discription {
+    font: 18px Pebble Nanum_Myeongjo, serif;
+    color: grey;
+    left: 170px;
+    right: 180px;
+    position: absolute;
+    text-align: left;
+    letter-spacing: .1em;
+}
+
+.list {
+    width: 1200px;
+    right: 550px;
+    border: 3px solid #F5EEE9;
+    margin: 1px solid white;
+    left: 150px;
+    position: relative;
+    font-style: oblique;
+    font-size: 19px;
+    top: -120px;
+    background-color: #F5EEE9;
+}
+
+.facilities2 {
+    font: 18px Pebble Nanum_Myeongjo, serif;
+    color: grey;
+    position: relative;
+    left: 100px;
+    top: -70px;
+    right: 400px;
+    text-align: left;
+    font-style: inherit;
+    font-size: 18px;
+}
+
+
+.hwrap {
+    width: 60%;
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    top: 60px;
+    left: 380px;
+    text-align: 20%;
+    overflow: hidden;
+}
+
+.hmove {
+    display: flex;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.hslide {
+    text-align: center;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+@keyframes slideh {
+    0% {
+        right: 0;
+    }
+    33% {
+        right: 100%;
+    }
+    66% {
+        right: 200%;
+    }
+    100% {
+        right: 0;
+    }
+    0% {
+        right: 0;
+    }
+    30% {
+        right: 0;
+    }
+    33% {
+        right: 100%;
+    }
+    63% {
+        right: 100%;
+    }
+    66% {
+        right: 200%;
+    }
+    97% {
+        right: 200%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.hmove {
+    animation: slideh linear 15s infinite;
+}
+
+.hmove:hover {
+    animation-play-state: paused;
+}
+
+.comma {
+    font-size: 94px;
+    position: relative;
+    left: 800px;
+}

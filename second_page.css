@@ -1,0 +1,501 @@
+body {
+    background-color: rgb(151, 143, 143);
+    /* background-color: #F1F2F4; */
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: block;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(42, 88, 112);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.45rem;
+    padding: 15px 0px;
+}
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 5px 9px;
+    margin: 2px 18px;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-decoration: none;
+}
+
+#element::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#element:hover::after {
+    width: 100%;
+}
+
+#banner {
+    height: 270px;
+    width: 100vw;
+}
+
+#banner img {
+    width: 100vw;
+    height: 230px;
+}
+
+
+/* #banner:before{
+    content: "";
+    position: absolute;
+    background: url('../images/noosa_banner3.jpg' );
+    background-repeat: no-repeat ;
+    background-attachment:fixed;
+    background-size: cover;
+    height: 650px ;
+    width: 100% ;
+    top: 0px ;
+    left: 0px ;
+    z-index: ;
+} */
+
+.container {
+    background-color: lightsalmon;
+    height: 240px;
+    width: 640px;
+    margin-top: 90px;
+    margin-left: 150px;
+    /* overflow: hidden; */
+}
+
+.container img {
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+
+.container img:hover {
+    transform: scale(1.03, 1.03);
+    transition: 0.5s transform;
+}
+
+.subHead1 {
+    display: inline;
+    font-size: 1.3rem;
+}
+
+.appartment {
+    background-color: grey;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+.logotext {
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.fa-star {
+    font-size: 0.95rem;
+}
+
+.fa-star-half {
+    font-size: 0.95rem;
+}
+
+.fa-user {
+    font-size: 0.9rem;
+}
+
+.part1 {
+    background-color: lightsalmon;
+    box-shadow: 0px 0px 18px 3px rgb(61, 52, 52);
+}
+
+details {
+    position: relative;
+    z-index: 1;
+}
+
+details p {
+    background-color: lightsalmon;
+    /* margin-left: 300px; */
+    margin-top: 9px;
+    padding-left: 306px;
+    padding-right: 8px;
+    padding-bottom: 25px;
+    transition: 5s all;
+    letter-spacing: 0.1rem;
+}
+
+summary:active+p {
+    transform: translateX(600px);
+    padding-left: 50px;
+    opacity: 1;
+}
+
+summary {
+    cursor: pointer;
+    /* position: relative; */
+}
+
+summary:active {
+    animation: openinfo 8s ease-out 0.5s forwards;
+}
+
+@keyframes openinfo {
+    from {
+        height: 0px;
+    }
+    to {
+        height: 180px;
+    }
+}
+
+.box1 {
+    height: 85px;
+    width: 640px;
+    background-color: rgb(223, 209, 209);
+    /* background-color: white; */
+    text-align: center;
+    padding-top: 34px;
+}
+
+.box1>h5 {
+    display: inline;
+}
+
+form>input {
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 4px;
+    cursor: pointer;
+}
+
+form>input:hover {
+    background-color: rgb(28, 68, 88);
+    color: white;
+}
+
+#main-sticky {
+    float: right;
+    position: relative;
+    top: 12vh;
+    right: 13vw;
+    height: 2550px;
+}
+
+#stickybox {
+    border-radius: 2%;
+    padding-top: 17px;
+    padding-left: 10px;
+    background-color: rgb(223, 209, 209);
+    box-sizing: border-box;
+    width: 27vw;
+    height: 175px;
+    font-size: 1.03rem;
+    /* text-align: center; */
+    float: right;
+    position: sticky;
+    top: 12vh;
+    right: 13vw;
+}
+
+#stickybox>#p1 {
+    padding-left: 13px;
+    display: inline;
+    text-align: left;
+}
+
+#span-fixed {
+    padding-left: 13px;
+}
+
+#rate {
+    text-align: center;
+    margin: 9px 0px;
+}
+
+#book {
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.07rem;
+    background-color: rgb(28, 68, 88);
+    color: rgb(219, 205, 205);
+    font-size: 1.1rem;
+    width: 21vw;
+    height: 4.7vh;
+    margin: 0px 34px;
+    margin-bottom: 20px;
+    /* padding: 5px 140px; */
+    box-shadow: 0px 6px 0px rgb(23, 92, 126);
+    transition: 0.2s all;
+}
+
+#book:active {
+    transform: translateY(3px);
+    box-shadow: 0px 2px 0px rgb(28, 68, 88);
+}
+
+footer {
+    margin-left: -150px;
+    margin-top: 46px;
+    padding: 0;
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
+
+footer>.copyright {
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+
+
+
+.checkin {
+    position:absolute;
+    top: 31vh;
+    width: 80vw;
+    padding: 0px 0px;
+    margin-left: 8vw;
+    background-color: whitesmoke;
+    height: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-right: 4px solid #28b8c5;
+    border-bottom: 4px solid #28b8c5;
+}
+
+#check {
+    /* position: relative; */
+    font-size: 1.8rem;
+    top: 0.6vh;
+    left: 3vw;
+    color: rgb(90, 82, 82);
+}
+
+.checkout {
+    border: none;
+    font-size: 1.8rem;
+    /* position: relative; */
+    left: 16vw;
+    top: -16.4vh;
+    color: rgb(90, 82, 82);
+}
+
+.dropbtn {
+    background-color: #28b8c5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: rgb(197, 147, 155);
+    ;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(197, 147, 155);
+}
+
+.adults {
+    font-size: 1.8rem;
+    color: rgb(90, 82, 82);
+}
+
+.adults1 {
+    /* position: relative; */
+    top: -29vh;
+    left: 30vw;
+}
+
+.dropbtn2 {
+    background-color: #28b8c5;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn2 {
+    background-color: #28b8c5;
+    color: white;
+    margin-left: 9px;
+    padding: 9.5px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content2 a:hover {
+    background-color: rgb(197, 147, 155);
+    ;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown2:hover .dropbtn2 {
+    background-color: rgb(197, 147, 155);
+}
+
+.children {
+    font-size: 1.8rem;
+    color: rgb(90, 82, 82);
+}
+
+.children1 {
+    /* position: relative; */
+    top: -42vh;
+    left: 39vw;
+}
+
+.discount>input {
+    border: none;
+    color: rgb(197, 147, 155);
+    text-align: center;
+    margin-top: 36px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.discount {
+    font-size: 1.8rem;
+    color: rgb(90, 82, 82);
+    /* position: relative; */
+    top: -55vh;
+    left: 50vw;
+}
+
+ ::placeholder {
+    color: violet;
+}
+
+.checkavalibility {
+    /* position: absolute; */
+top: 32.2vh;
+    left: 141vh;
+    /* width: fit-content; */
+    display: inline;
+    font-size: 1.8rem;
+    /* color: rgb(170, 18, 18); */
+}
+.checkavalibility>a{
+    color: #28b8c5;
+}
+.checkavalibility > a:hover{
+    color: rgb(197, 147, 155) ;
+}
+

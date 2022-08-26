@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On the Beach</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Great+Vibes&family=Imperial+Script&family=Josefin+Sans:wght@100;200;300;350;500&family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Lato:wght@100&family=Licorice&family=Montserrat:wght@100;200;300;400&family=Open+Sans&family=Oswald:wght@300&family=Roboto+Condensed&family=Saira+Extra+Condensed:wght@100&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/Style.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="content">
+            <div class="logo">
+                <a href=#Section1>
+                    <h1>ON THE</h1>
+                    <h1><span>Beach</span></h1>
+                </a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#Section3">ACCOMODATION</a></li>
+                <li><a href="#Section4">PACKAGES</a></li>
+                <li><a href="#Section5">GALLERY</a></li>
+                <li><a href="#Section6">CONTACT</a></li>
+                <li><a href="mywork.html" target="_blank">EXPERIENCES</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menu = document.querySelector(".menu-list");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            menu.classList.add("active");
+            menuBtn.classList.add("hide");
+            cancelBtn.classList.add("show");
+            body.classList.add("disabledScroll");
+        }
+        cancelBtn.onclick = () => {
+            menu.classList.remove("active");
+            menuBtn.classList.remove("hide");
+            cancelBtn.classList.remove("show");
+            body.classList.remove("disabledScroll");
+        }
+
+        window.onscroll = () => {
+            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+    </script>
+    <div class="banner">
+        <div class="video-container" id="Section1">
+            <video id="background-video" autoplay muted loop>
+                <source src="video.mp4" type="video/mp4" >
+            </video>
+        </div>
+
+    </div>
+    <div class="service-holder">
+        <div class="icon-holder">
+            <img src="icons/parking.jpg" alt="">
+            <p>Free Secure Parking</p>
+        </div>
+        <div class="icon-holder">
+            <img src="icons/wifi.jpg" alt="">
+            <P>Super Fast Wi-Fi</P>
+
+        </div>
+        <div class="icon-holder">
+            <img src="icons/checkin.jpg" alt="">
+            <p>Early Check-in</p>
+
+        </div>
+        <div class="icon-holder">
+            <img src="icons/checkout.jpg" alt="">
+            <p>Late Check-out</p>
+
+        </div>
+        <div class="icon-holder">
+            <img src="icons/rate.jpg" alt="">
+            <p>Best Rate Guaranteed</p>
+
+        </div>
+        <div class="exclusive-holder">
+            <a href="second_page.html">
+                <div class="pop-up" id="Section2">
+                    <h3>BOOK WITH US & SAVE</h3>
+                </div>
+            </a>
+            <div class="exclusive">
+                <h3>Receive these <span> exclusive</span> benefits when you book direct with us</h3>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="service-text">
+        <h1>
+            EXCLUSIVE LUXURY BEACHFRONT APARTMENTS & PENTHOUSES
+        </h1>
+        <p>One of Noosa’s signature beachfront properties – our interior design takes inspiration from its coastal Noosa surrounds – cabana style retreats, sun lounges, BBQs and spas invite you to immerse yourself in Noosa’s unique tropical blend of sea,
+            forest and sky. With direct beach access from the resort, it’s just a few steps to the patrolled main beach and the feeling of sand between your toes.
+        </p>
+    </div>
+    <div class="slideshow" id="Section3">
+        <div class="slideshow-item">
+            <img src="images/Beach.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>BEACHFRONT VIEW</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Pool.png" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>SWIMING POOL</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Lounge.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>LOUNGE AREA</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Outdoor.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>OUTDOORS</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Indoor.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>INDOORS</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Room.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>ROOM INTERIORS</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Bedroom.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>BEDROOM</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Jacuzzi.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>JACUZZI</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Gym.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>GYM</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Boating.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>HIRE A BOAT</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Evening.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>EVENING VIEW</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img src="images/Whales.jpg" alt="">
+            <div class="item-text">
+                <h5>Luxury Marina Accomodations</h5>
+                <h3>WHALES</h3>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="booking-form" id="Section4">
+        <form action="">
+            <div class="inbox">
+                <span class="calender"></span>
+                <input type="date" placeholder="Check-in" id="in" required>
+                <label for="in">Check In</label>
+            </div>
+            <div class="inbox">
+                <span class="calender"></span>
+                <input type="date" placeholder="Check-out" id="out" required>
+                <label for="out">Check Out</label>
+            </div>
+            <div class="inbox">
+                <span class="head-count"></span>
+                <select type="number" placeholder="" id="guest" required>
+                    <option value="1">1 person </option>
+                    <option value="2">2 persons</option>
+                    <option value="3">3 persons</option>
+                    <option value="4">4 persons</option>
+                    <option value="5">5 persons</option>
+                    <option value="6">6 persons</option>
+                    <option value="7">7 persons</option>
+                    <option value="8">8 persons</option>
+                </select>
+                <label for="guest">Guests</label>
+            </div>
+            <div class="inbox">
+                <input type="text" placeholder="Promo Code" id="pc">
+                <label for="pc"> Discount</label>
+            </div>
+            <div class="input-button">
+                <a href="second_page.html">
+                    <h2>CHECK AVAILABILTY &xrarr;</h2>
+                </a>
+            </div>
+        </form>
+    </div>
+    </head>
+
+    <body>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <!--<div class="numbertext">1 / 4</div>-->
+                <img src="images 2/taste.jpg" style="width:100%">
+                <div class="slide-text">
+                    <h4>Limited Offer</h4>
+                    <h1>TASTE OF NOOSA PACKAGE</h1>
+                    <p>
+                        Tantalize your taste buds with the Taste of Noosa package*. Enjoy an organic cheese platter for 2, 4 pack of Land & Sea beer and a 4 pack of loc...
+                    </p>
+                    <a href="see packages.html">See Packages</a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <!--<div class="numbertext">2 / 4</div>-->
+                <img src="images 2/bubbles.jpg" style="width:100%">
+                <div class="slide-text">
+                    <h4>Celebrate</h4>
+                    <h1>BUBBLES & BRUNCH NOOSA STYLE</h1>
+                    <p>
+                        Celebrate with our bubbles & brunch package*. Arrive with a hamper filled with delicious organic delights and Australian sparkling chilled ready...
+                    </p>
+                    <a href="see packages.html">See Packages</a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <!--<div class="numbertext">3 / 4</div>-->
+                <img src="images 2/couples.jpg" style="width:100%">
+                <div class="slide-text">
+                    <h4>Limited Offer</h4>
+                    <h1>NOOSA COUPLES GETAWAY</h1>
+                    <p>
+                        Take time away from your everyday, soak in the spa and watch the world go by. Stay three nights and have the choice of two consecutive half hour massa...
+                    </p>
+                    <a href="see packages.html">See Packages</a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <!--<div class="numbertext">4 / 4</div>-->
+                <img src="images 2/luxury.jpg" style="width:100%">
+                <div class="slide-text">
+                    <h4>Upgrade Today</h4>
+                    <h1>LUXURY EXTRAS TO UPGRADE YOUR STAY</h1>
+                    <p>
+                        We have a gorgeous selection of extra special luxury offerings to ensure you have the most beautiful experience when you stay with us....
+                    </p>
+                    <a href="see packages.html">See Packages</a>
+                    <div class="line2"></div>
+                </div>
+            </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <div class="gallery" id="Section5">
+            <div class="gallery-text">
+                <h4>Boutique Collection</h4>
+                <h1>PHOTO GALLERY</h1>
+                <h5>See For Yourself</h5>
+                <div class="line"></div>
+            </div>
+            <div class="rows">
+                <img src="gallerypics/gallery1.jpg" alt="">
+                <img src="gallerypics/gallery3.jpg" alt="">
+                <div class="sub-row">
+                    <img src="gallerypics/gallery2.jpg" alt="">
+                    <img src="gallerypics/gallery4.jpg" alt="">
+                </div>
+            </div>
+            <div class="rows">
+                <img src="gallerypics/gallery7.jpg" alt="">
+                <div class="sub-row">
+                    <img src="gallerypics/gallery5.jpg" alt="">
+                    <img src="gallerypics/gallery6.jpg" alt="">
+                </div>
+                <img src="gallerypics/gallery10.jpg" alt="">
+            </div>
+            <div class="rows">
+                <div class="sub-row">
+                    <img src="gallerypics/gallery8.jpg" alt="">
+                    <img src="gallerypics/gallery9.jpg" alt="">
+                </div>
+                <img src="gallerypics/gallery15.jpg" alt="">
+                <img src="gallerypics/gallery17.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer" id="Section6">
+            <div class="footer1">
+                <p class="footer-text">Subscribe & Stay Connected</p>
+                <form action="thanksub.html">
+                    <div class="mail-btn">
+                        <div class="mail">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="sub-btn">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="policy">
+                        <input class="check-box" type="checkbox" required>
+                        <p class="check-box-text">I agree to your <i><a href="Policy.html">privacy policy</a></i>, and my personal data being stored.</p>
+                    </div>
+                </form>
+                <div class="copy-section">
+                    <p class="copy-text">
+                        © Copyright 2022 On The Beach Noosa Resort Made with by Aqua
+                    </p>
+                    <div class="footer-btn">
+                        <a href="#Section">
+                            <p>Back To Top</p>
+                        </a>
+                        <a href="about.html" target="_blank">
+                            <p>About</p>
+                        </a>
+                        <a href="Policy.html" target="_blank">
+                            <p>Policies</p>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer2">
+                <h3>Get in Touch</h3>
+                <div class="address">
+                    <p>49 Hastings St, Noosa</p>
+                    <p>Heads</p>
+                    <p>Queensland 4567</p>
+                </div>
+                <div class="contact">
+                    <p>Phone +61 7 5449 5000</p>
+                    <p>Email</p>
+                    <p>stay@onthebeach.com.au</p>
+                </div>
+                <a href="second_page.html">
+                    <div class="footer-book">
+                        <h2>MAKE A BOOKING &xrarr;</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </body>
+
+</html>

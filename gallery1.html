@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery1</title>
+    <script src="https://kit.fontawesome.com/399e031ed6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,100&family=Amatic+SC&family=Dancing+Script&family=Josefin+Sans:wght@200;300&family=Josefin+Slab:wght@200&family=Megrim&family=Noto+Serif+Display:ital,wdth,wght@1,92.3,789&family=Wire+One&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    h1 {
+        padding: 50px;
+        font: 21px Pebble Nanum_Myeongjo, serif;
+        margin: 10px 0px 13px;
+        letter-spacing: .1em;
+        font-weight: thin;
+    }
+    
+    .head {
+        font: 44px Pebble Nanum_Myeongjo, serif;
+        padding-left: 50px;
+        font-weight: thin;
+        position: relative;
+        top: -50px;
+    }
+    
+    .head2 {
+        font-size: 19px;
+        color: #28b8c5;
+        padding: 50px;
+        position: relative;
+        top: -80px;
+    }
+    
+    body {
+        margin: 55px;
+        padding-right: 160px;
+    }
+    
+    .head3 {
+        position: relative;
+        top: -70px;
+        color: rgb(59, 54, 54);
+        left: 50px;
+        margin: 0px 0px 20px;
+        font-size: 19px;
+    }
+    
+    .pictures {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(min-content, max-content);
+        position: relative;
+        top: -35px;
+        left: 60px;
+        height: 30px;
+        width: 100px;
+        display: grid;
+        gap: 20px;
+        border-radius: 10px;
+    }
+    
+    .pic1:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.05);
+    }
+    
+    .pic2:hover {
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+        border-radius: 20px;
+    }
+    
+    .pic3:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+    }
+    
+    .pic4:hover {
+        transform: scale(1.04);
+        transition: 0.5s all ease-in-out;
+        border-radius: 20px;
+    }
+    
+    .pic5:hover {
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+        border-radius: 20px;
+    }
+    
+    .pic6:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+    }
+    
+    .pic7:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+    }
+    
+    .pic8:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+    }
+    
+    .pic9:hover {
+        transition: 0.5s all ease-in-out;
+        border-radius: 20px;
+        transform: scale(1.04);
+    }
+    
+    .pic10:hover {
+        transition: 0.5s all ease-in-out;
+        border-radius: 20px;
+        transform: scale(1.04);
+    }
+    
+    .pic11:hover {
+        transition: 0.5s all ease-in-out;
+        border-radius: 20px;
+        transform: scale(1.04);
+    }
+    
+    .pic12:hover {
+        transform: scale(1.04);
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+    }
+    
+    .pic13:hover {
+        border-radius: 20px;
+        transition: 0.5s all ease-in-out;
+        transform: scale(1.04);
+    }
+    
+    .pic14:hover {
+        transition: 0.5s all ease-in-out;
+        border-radius: 20px;
+        transform: scale(1.04);
+    }
+    /* (A) OUTER CONTAINER */
+    
+    .hwrap {
+        width: 60%;
+        font-size: 24px;
+        position: relative;
+        display: flex;
+        left: 380px;
+        top: 1950px;
+        text-align: 20%;
+        overflow: hidden;
+    }
+    
+    .hmove {
+        display: flex;
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    
+    .hslide {
+        text-align: center;
+        width: 100%;
+        flex-shrink: 0;
+    }
+    
+    @keyframes slideh {
+        0% {
+            right: 0;
+        }
+        33% {
+            right: 100%;
+        }
+        66% {
+            right: 200%;
+        }
+        100% {
+            right: 0;
+        }
+        30% {
+            right: 0;
+        }
+        33% {
+            right: 100%;
+        }
+        63% {
+            right: 100%;
+        }
+        66% {
+            right: 200%;
+        }
+        97% {
+            right: 200%;
+        }
+        100% {
+            right: 0;
+        }
+    }
+    
+    .hmove {
+        animation: slideh linear 15s infinite;
+    }
+    
+    .hmove:hover {
+        animation-play-state: paused;
+    }
+    
+    .comma {
+        font-size: 94px;
+        position: relative;
+        top: 1880px;
+        left: 730px;
+    }
+</style>
+
+<body>
+    <h1> Self-Contained Luxurious Apartment</h1>
+    <div class="head">BEACHFRONT SPA STUDIO</div>
+    <div class="head2">Contemporary first-floor studio apartments offer private balcony with spa, BBQ, outdoor dining and stunning views of beautiful Noosa Main Beach.</div>
+    <div class="head3">Perfect for couples, friends or small families looking to relax and recharge in Noosa. With stylish interiors inspired by Noosa surrounds, these apartments have an open plan lounge with flat screen TV, well-equipped kitchen and dining. The combined
+        bedroom/bathroom area includes a luxe king bed (which can be split into singles), TV, shower, robes and Apelles range of skin and hair care products. A roll-away bed and/or cot can also be added. Watch the sun set from your private balcony and
+        dine alfresco with BBQ and outdoor setting.Perfect for couples, friends or small families looking to relax and recharge in Noosa. With stylish interiors inspired by Noosa surrounds, these apartments have an open plan lounge with flat screen TV,
+        well-equipped kitchen and dining.Perfect for couples, friends or small families looking to relax and recharge in Noosa. <br><br>If you prefer eating out, Noosa’s renowned restaurants, Bistro C and The Boardwalk Bistro, are just downstairs. Included
+        are all the special touches you would expect from a luxury Noosa beachfront resort, like personalized air-conditioning, free internet, Foxtel, and daily services.Perfect for couples, friends or small families looking to relax and recharge in Noosa.
+        With stylish interiors inspired by Noosa surrounds, these apartments have an open plan lounge with flat screen TV, well-equipped kitchen and dining.<br><br><br> Perfect for couples, friends or small families looking to relax and recharge in Noosa.
+        With stylish interiors inspired by Noosa surrounds, these apartments have an open plan lounge with flat screen TV, well-equipped kitchen and dining.Perfect for couples, friends or small families looking to relax and recharge in Noosa. With stylish
+        interiors inspired by Noosa surrounds, these apartments have an open plan lounge with flat screen TV, well-equipped kitchen and dining.Perfect for couples, friends or small families looking to relax and recharge in Noosa.
+        <br>
+        <br><br><br>Join us On The Beach, for your next holiday.</div>
+    <div class="pictures">
+        <img class="pic1" src=" images/beachsec1.jpg " height="350px " width="500px ">
+        <img class="pic2" src="images/beachsec10.jpg " height="350px " width="500px ">
+
+        <img class="pic3" src=" images/beachsec11.jpg " height="350px " width="500px ">
+        <img class="pic4" src=" images/beachsec12.jpg " height="350px " width="500px ">
+        <img class="pic5" src=" images/beachsec15.jpg " height="350px " width="500px ">
+        <img class="pic6" src=" images/beachsec17.jpg " height="350px " width="500px ">
+        <img class="pic7" src="images/beachsec20.jpg " height="350px " width="500px ">
+        <img class="pic8" src="images/beachsec22.jpg " height="350px " width="500px ">
+        <img class="pic9" src="images/beachsec23.jpg " height="350px " width="500px ">
+        <img class="pic10" src="images/beachsec24.jpg " height="350px " width="500px ">
+        <img class="pic11" src="images/beachsec25.jpg " height="350px " width="500px ">
+        <img class="pic12" src="images/beachsec26.jpg " height="350px " width="500px ">
+        <img class="pic13" src="images/beach12.jpg " height="350px " width="500px ">
+        <img class="pic14" src="images/beach11.jpg " height="350px " width="500px ">
+
+
+
+    </div>
+    <div class="comma "><i class="far fa-comments ">
+        </i></div>
+    <div class="hwrap ">
+        <div class="hmove ">
+            <div class="hslide ">
+                Lovely stay at On The Beach. We had one of the penthouse apartments and it was perfect. Fantastic view, spacious, modern, clean, great friendly staff. Would highly recommend next time in Noosa! But I would stay longer -
+                <h4>Burnster1972 - Tripadvisor</h4>
+            </div>
+            <div class="hslide ">
+                In my opinion probably one of the best located properties on Hastings street and the front desk reception staff are very helpful and provided a great service. We received confirmation phone calls prior to check in and the room was ready before we arrived.
+                Overall very pleased with the cleanliness and all round service. -
+                <h4>Nick - Tripadvisor
+                </h4>
+            </div>
+
+            <div class="hslide ">
+                Our stay at On The Beach was one of the most relaxing short breaks we’ve had in a long time . The staff were very helpful in making sure we had everything we requested. We stayed in a Penthouse Studio room 24 it was well decorated and with the roof top
+                Spa & BBq just made it so much nicer, We intend going back there in the near future. Room Tip: All top floor rooms have great views directly over the beach front. -
+                <h4> Peter – Brisbane </h4>
+            </div>
+
+            <div class="hslide ">The staff were very helpful in making sure we had everything we requested. We stayed in a Penthouse Studio room 24 it was well decorated and with the roof top Spa & BBq just made it so much nicer, We intend going back there in the near future.
+                Room Tip: All top floor rooms have great views directly over the beach front. -
+                <h4>Peter – Brisbane</h4>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

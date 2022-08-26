@@ -1,0 +1,50 @@
+.container{
+    /* background-color: lightsalmon; */
+    height: 78vh;
+    width: 77vw;
+    margin-top: 90px;
+    margin-left: 80px;
+    /* overflow: hidden; */
+}
+.part1{
+    /* background-color: lightsalmon; */
+    height: 78vh;
+    width: 77vw;
+    margin-top: 90px;
+    margin-left: 0px;
+    /* overflow: hidden; */
+}
+.box1{
+    width: 77vw;
+}
+#main-sticky{
+    /* float: right;
+    position: relative;
+    top: 100vh;
+    right: 11vw;
+    height: 2550px; */
+    display: none;
+    
+
+}
+
+ #stickybox{
+     /*position: relative;
+    text-align:  */
+    display: none;
+}
+#navbar{
+    width: 90vw;
+}
+#navbar ul li{
+    font-size: 1rem;
+}
+.fa-star{
+    font-size: .5rem;
+}
+.fa-star-half{
+    font-size: .5rem;
+}
+.checkin{
+    font-size: 1rem;
+}
